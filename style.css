@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 11vh;
+    background-color: rgb(188, 172, 172);
+}
+
+h1 {
+    font-size: 1.5em;
+    font-weight: normal;
+    font-family: 'Abril Fatface', serif;
+    color: rgb(0, 0, 0);
+    padding-top: 19px;
+    padding-left: 90px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-toggle {
+    cursor: pointer;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: rgb(221, 145, 145);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    padding: 10px 0;
+    border: 1px solid #ddd;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu a {
+    color: rgb(0, 0, 0);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-menu a:hover {
+    background-color: #9c6060;
+}
+
+.container {
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+h2, h3, h4 {
+    font-family: Merriweather, sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+h3 {
+    font-size: 2em;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+h4 {
+    font-size: 1.5em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+nav {
+    position: absolute;
+    top: 20px;
+    right: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.recipes {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #b56666a0;
+    border-radius: 5px;
+}
+
+nav a{
+    font-size: 1em;
+    font-weight: normal;
+    font-family: Merriweather, sans-serif;
+    max-width: 100%;
+    line-height: 1em;
+    padding-top: 10px;
+    padding-left: 40px;
+    justify-content: flex-end;
+    text-decoration: none;
+}
+
+nav a, .dropdown {
+    margin: 0 15px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: normal;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+body {
+    margin: 0;
+    font-family: Poppins, sans-serif;
+    line-height: 1.6;
+    background-color: rgb(188, 172, 172);
+}
+
+
+.testimonial-section {
+    position: relative;
+    background-image: url('https://static.wikia.nocookie.net/disneyfanon/images/3/34/Shrek%27s_Swamp.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(224, 208, 208);
+    text-align: left;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height, adjust as needed */
+}
+.center-image {
+    width: 200px;
+    height: auto;
+}
+
+
+.overlay-text p {
+    font-size: 2em;
+    font-weight: bold;
+    max-width: 100%;
+    margin: auto;
+    line-height: 1.2em;
+}
+
+.author-info {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.author-info img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.author-info .name {
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.author-info .title {
+    font-size: 0.9em;
+    color: #ccc;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+.recipes h3 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.recipes h4 {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+.recipes ul,
+.recipes ol {
+    margin-left: 20px;
+}
+
+.recipes ul li,
+.recipes ol li {
+    margin-bottom: 10px;
+}
+
+.recipes p {
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+.recipes a {
+    color: #333;
+    text-decoration: underline;
+}
+
+.recipes a:hover {
+    color: #0077cc;
+}
